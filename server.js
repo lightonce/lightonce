@@ -2,7 +2,7 @@ const fs = require('fs');
 const http = require('http');
 const path = require('path');
 
-const { APP_PORT, APP_IP } = process.env;
+const { APP_PORT, APP_IP, APP_PATH } = process.env;
 
 const indexPath = path.join(path.dirname(APP_PATH), 'build', 'index.html');
 

@@ -1,0 +1,34 @@
+{
+	"name": "lightonce",
+	"version": "1.0.0",
+	"description": "Personal website!",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build",
+		"pages": "gulp pages",
+		"styles": "gulp styles",
+		"script": "gulp script",
+		"images": "gulp images",
+		"fonts": "gulp fonts",
+		"watcher": "gulp watcher",
+		"server": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lightonce/lightonce.git"
+	},
+	"author": "Egor Light",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lightonce/lightonce/issues"
+	},
+	"homepage": "https://github.com/lightonce/lightonce#readme",
+	"devDependencies": {
+		"browser-sync": "^2.27.10",
+		"gulp": "^4.0.2",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-less": "^5.0.0"
+	}
+}
